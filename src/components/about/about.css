@@ -9,7 +9,7 @@
   /* aspect-ratio: 1/1; */
   border-radius: 2rem;
   background: linear-gradient(
-    45deg,
+    30deg,
     transparent,
     var(--color-primary),
     transparent
@@ -21,8 +21,9 @@
 .about__me-image {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
-  transition: var(--transition);
+  /* transform: rotate(10deg); */
+  /* transition: var(--transition); */
+  scale: 0.95;
 }
 
 .about__me-image:hover {
