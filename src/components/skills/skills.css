@@ -1,0 +1,17 @@
+.skills__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7rem;
+}
+
+.skills__icons {
+  width: 75px;
+  height: 75px;
+}
+
+.skills__icons:hover {
+  scale: 1.5;
+  transition: 500ms;
+}
